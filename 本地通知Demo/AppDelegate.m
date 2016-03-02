@@ -20,6 +20,8 @@
     
     //ios8 之后 需要授权  它会在你第一次使用app时 给出提示 是否允许显示通知
     //允许alert 提示  badge修改appIcon未读数  设置sound提示音
+    
+    ///SDFSSDAUFDQUAFDASFU测试
     if ([[UIDevice currentDevice].systemVersion  floatValue]>=8.0) { //判断当前设备系统的版本 是不是大于 8.0
         
         [[UIApplication sharedApplication] registerUserNotificationSettings:[UIUserNotificationSettings settingsForTypes:UIUserNotificationTypeAlert|UIUserNotificationTypeBadge|UIUserNotificationTypeSound categories:nil]
